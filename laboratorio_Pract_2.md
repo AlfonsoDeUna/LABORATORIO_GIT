@@ -37,7 +37,7 @@ Aprender cómo deshacer cambios en diferentes etapas del flujo de trabajo de Git
      ```
 
 ### 3. Deshacer un Commit
-   - **Paso 1**: Si has añadido cambios al área de preparación y luego has realizado un commit con:
+   - **Paso 1**: Crea cambios en el fichero y añádelos al área de preparación y luego has realizado un commit con:
      ```bash
      git commit -m "Borrar líneas de README.md"
      ```
