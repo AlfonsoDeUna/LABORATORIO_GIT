@@ -22,6 +22,7 @@
      ```
    - **Paso 4**: Ejecuta la aplicación con:
      ```bash
+     npm install express
      node index.js
      ```
 
