@@ -21,8 +21,11 @@
      git checkout -b rama1 v1
      ```
    - **Paso 2**: Realiza algunos cambios en esta rama y registra un nuevo commit.
+   - Visualiza las ramas como quedan con --graph y apúntalo en el documento de entrega.
+   - Responde a la siguiente pregunta: ¿Por qué se usan las ramas en GIT? ¿Y para qué?
 
 ### 3. Crear Ramas en Modo Despegado (Detached HEAD)
+    Responde a la siguiente pregunta para qué se crean las ramas en Modo Despegado
    - **Paso 1**: Cambia al commit `v1`:
      ```bash
      git checkout v1
@@ -55,7 +58,8 @@
      git add AUTHOR README.md
      git commit -m "Nuevo archivo AUTHOR y editado README.md"
      ```
-
+      Muestra las ramas con --graph
+     
 ### 5. Subir Ramas al Repositorio Remoto
    - **Paso 1**: Sube todas las ramas al repositorio remoto:
      ```bash
@@ -64,7 +68,7 @@
 
 ## Notas Adicionales
 - Al crear ramas, estás proporcionando un ambiente seguro para experimentar sin afectar la rama principal.
-- Siempre puedes visualizar el gráfico de ramas en GitHub bajo la pestaña Insights y luego en la opción Network.
+- Siempre puedes visualizar el gráfico de ramas en GitHub bajo la pestaña Insights y luego en la opción Network. (Crea un pantallazo)
 - No elimines los repositorios local ni remoto, ya que se utilizarán en actividades futuras.
 
 ## Evaluación
